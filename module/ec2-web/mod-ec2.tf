@@ -5,6 +5,6 @@ resource "aws_instance" "myweb" {
    instance_type = "${var.instance_type}"
    security_groups = ["default"]
    tags {
-     Managed = "Terraform-123"
+     Managed = "Terraform"
 }
    }
