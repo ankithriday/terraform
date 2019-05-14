@@ -7,3 +7,4 @@ resource "aws_instance" "myweb" {
    tag = {
       Managed = "Terraform"
    }
+   }
